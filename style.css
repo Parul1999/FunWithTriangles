@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+:root
+{
+    --primary-color:#F87171
+}
+body
+{   font-family: 'Indie Flower', cursive;
+    margin:0;
+}
+header
+{
+    background-color: var(--primary-color);
+    padding:0.1rem;
+    color:white;
+}
+h1
+{
+    margin: 0;
+}
+ul
+{
+    list-style: none;
+}
+nav
+{
+    text-align: right;
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+    color:white;
+    padding:0.6rem
+}
+
+
+
+
+
+

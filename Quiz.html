@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link href="style.css" rel="stylesheet"/>
+    <link href="./styles/Quiz.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <h1>Fun With Triangles</h1>
+    <nav>
+            <a href="IsTriangle.html">Is Triangle?</a>
+            <a href="Quiz.html"><b>Quiz</b></a>
+            <a href="Hypotenuse.html">Hypotenuse</a>
+            <a href="Area.html">Area of Triangle</a>
+    </nav>
+</header>
+  <main>
+      <h2 id="heading">Each Correct Answer </h2>
+    <form class="quiz-form">
+        <ol>
+            <li>          
+         <p>How many angles do triangles have?</p>
+         <input type="radio" name="q1" value="4"/>4 angles
+         <input type="radio" name="q1" value="3"/>3 angles
+         <input type="radio" name="q1" value="2"/>2 angles
+       
+            </li>
+        <li>
+          <p> All of the angles in a triangle add up to? </p>
+          <input type="radio" name="q2" value="170"/>170 degree
+          <input type="radio" name="q2" value="150"/>150 degree
+          <input type="radio" name="q2" value="180"/>180 degree
+         </li>
+         <li>
+             <p>If two angles are 45 degree.What is the third angle?</p>
+  
+             <input type="radio" name="q3" value="80"/>80 degree
+             <input type="radio" name="q3" value="90"/>90 degree
+             <input type="radio" name="q3" value="60"/>60 degree
+         </li>
+         <li>
+            <p>Name the triangle whose all angles are equal(i.e 60 degree).</p>
+            <input type="radio" name="q4" value="equilateral"/> Equilateral Triangle
+            <input type="radio" name="q5" value="isosceles"/>Isosceles Triangle
+        </li>
+        <li>
+            <p>Name the triangle which has only 2 sides equal.</p>
+            <input type="radio" name="q5" value="equilateral"/> Equilateral Triangle
+            <input type="radio" name="q5" value="isosceles"/>Isosceles Triangle
+        </li>
+        </ol>
+        
+      </form>
+      <button id="submit-form">Submit Form</button>
+      <div id="output"></div>
+
+  </main>
+<script src="Quiz.js"></script>
+</body>
+</html>

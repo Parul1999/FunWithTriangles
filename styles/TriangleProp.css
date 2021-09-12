@@ -1,0 +1,52 @@
+/*css for Is triangle , Area  and Hypotenuse*/
+main
+{
+/*To diplay the input's one below other */
+   display: flex;
+   flex-direction: column;
+   margin-top: 3rem;
+}
+
+input, button
+{
+
+    margin:auto;
+    height:2rem;
+    border: 2px solid var(--primary-color);
+    border-radius:2rem;
+    /* This is cuz on click of input , not to show the black border */
+    outline: none;
+}
+input{
+    width:20rem;
+}
+button
+{
+    width:10rem;
+    cursor:pointer;
+}
+label{
+    margin:auto;
+    margin-top:1rem;
+    font-size: larger;
+}
+
+button{
+    margin-top:2rem;
+    background-color:var(--primary-color);
+    color:white;
+    font-family: 'Indie Flower', cursive;
+    font-size:larger;
+}
+#heading,.info
+{
+    margin: auto;
+    color:var(--primary-color);
+    margin-top:1rem
+}
+#output
+{
+    margin: auto;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
