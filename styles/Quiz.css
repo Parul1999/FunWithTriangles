@@ -8,6 +8,7 @@ ol
     /* To bring the ol count to centre along with the text */
     display: inline-block !important;
     margin-block-start: 0rem;
+    font-size: larger;
 }
 
 p
